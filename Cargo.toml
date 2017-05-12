@@ -1,0 +1,13 @@
+[package]
+name = "ld38"
+version = "0.1.0"
+authors = ["Jonathan Karlsson <karlsjona@gmail.com>"]
+
+[dependencies]
+
+[dependencies.sdl2]
+version = "0.30.0-beta"
+default-features = false
+features = ["ttf", "image", "mixer"]
+
+
